@@ -202,7 +202,7 @@ run_xcms = function(xcms_params, output_dir, data_dir)
   # Move back to output_dir and write out your feature table
   setwd(output_dir)
   xcms_peaklist = xcms::peakTable(xset3, filebase=xcms_feature_table)
-  # message("Finished xcms!")
+  message("Finished xcms!")
 }
 
 print(args$summaryfile)
